@@ -1,4 +1,5 @@
 import './App.css'
+import Button from './components/Button';
 import ListGroup from './components/ListGroup';
 import Navbar from './components/Navbar';
 
@@ -33,11 +34,17 @@ function App() {
     console.log(button);
   }
 
+  const road=[
+    "Hello",
+    "Bring it on"
+  ]
+
   return (
     <>
     <div className='Container'>
       <Navbar buttons={buttons} navbar={navbar} onClickButton={handleClickButton}/>
       <ListGroup items={items} heading={header} onSelectItem={handleSelectItem}/>
+      <Button road={road}>My button</Button>
     </div>
     </>
   )
