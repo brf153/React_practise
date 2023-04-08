@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+}
+
+.Container{
+  width: 100vw;
+  height:100vh;
+  text-align: left;
+}
+
+.Container ul{
+  display: block;
+  list-style-type: none;
+  padding: 2rem 0rem;
+  
+}
+
+.Container ul li{
+  line-height: 30px;
+  
+}
